@@ -1,8 +1,6 @@
-//関数の定義
-const calculateSquare =  (value) => {
-  console.log('引数の値は： ' + value + 'です');
-  console.log('引数の2乗値は：' + value * value + 'です');
+//与えた引数(num)の2乗を戻り値として返す関数の定義
+const double = (num) => {
+  return num * num;
 }
-
-//関数を呼び出して、引数へ値を渡す
-calculateSquare(11);
+//関数の戻り値を出力
+console.log(double(11));
